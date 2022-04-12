@@ -1,0 +1,27 @@
+.empty-container {
+  width: 300px;
+  color: #fff;
+}
+
+.empty-wrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  padding-top: 71px;
+}
+
+.empty-title {
+  font-size: 2rem;
+}
+
+.empty-text {
+  font-size: 1rem;
+}
+
+.empty-image {
+  width: 100%;
+  padding: 40px;
+  box-sizing: border-box;
+}

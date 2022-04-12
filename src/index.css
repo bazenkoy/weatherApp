@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: 'Raleway';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.wrapper {
+  background: #100E1D;
+  display: flex;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 1080px) {
+  .wrapper {
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+  }
+}

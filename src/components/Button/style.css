@@ -1,0 +1,47 @@
+.button {
+    padding: 12px;
+    width: 100%;
+    max-width: 160px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.button-primary {
+    background: #3C47E9;
+    color: #E7E7EB;
+}
+
+.button-primary:hover {
+    background: #4b56e7;
+}
+
+.button-secondary {
+    background: #6E707A;
+    color: #E7E7EB;
+}
+
+.button-secondary:hover {
+    background: #8f8f92;
+}
+
+.button-rounded {
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #585676;
+    color: #E7E7EB;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.button-rounded:hover {
+    background: #E7E7EB;
+    color: #110E3C;
+}

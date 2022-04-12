@@ -1,0 +1,76 @@
+.navbar-wrapper {
+  background: #1e213a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 42px;
+  max-height: 100%;
+  flex: 1;
+}
+
+.navbar-default-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-icon {
+  max-width: 202px;
+  margin-top: 60px;
+}
+
+.navbar-button {
+  width: 100%;
+}
+
+.navbar-temperature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e7e7eb;
+  font-weight: 500;
+  font-size: 144px;
+}
+
+.navbar-weatherState {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+  color: #a09fb1;
+}
+
+.navbar-date {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #88869d;
+}
+
+.navbar-location {
+  text-align: center;
+}
+
+.navbar-default-view {
+  animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .navbar-wrapper {
+    padding: 16px;
+  }
+
+  .navbar-temperature {
+    font-size: 100px;
+  }
+}
